@@ -10,6 +10,7 @@ const SectionHeroStyle = styled.section`
   @media (max-width: 500px) {
     padding-bottom: 5rem;
     border-bottom: 1px solid #212121;
+    padding-top: 13rem;
   }
 `;
 
@@ -382,6 +383,9 @@ const ListaDeClientes = styled.ul`
   align-items: center;
   justify-content: center;
   margin-top: 5rem;
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
 `;
 
 const Clientes = styled.li`
@@ -399,6 +403,57 @@ const LogoClientes = styled.div`
   width: 100%;
   max-width: 14rem;
   margin-bottom: 1rem;
+`;
+
+////HOJE
+
+const TituloServicosStyle = styled.div`
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 3rem;
+`;
+
+const ListaDeServicosStyle = styled.ul`
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
+`;
+
+const BoxServico = styled.li`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 54rem;
+  height: 65rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  @media (max-width: 500px) {
+    height: 40rem;
+    border-radius: 2rem;
+  }
+`;
+
+const ImagemDeFundoServicos = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+`;
+
+const TituloBoxServicos = styled.h4`
+  font-size: 3rem;
+  font-weight: 200;
+  color: #fff;
+  position: absolute;
+  @media (max-width: 500px) {
+    font-size: 2rem;
+  }
 `;
 
 export {
@@ -429,4 +484,9 @@ export {
   LogoClientes,
   Clientes,
   ListaDeClientes,
+  ListaDeServicosStyle,
+  TituloServicosStyle,
+  BoxServico,
+  ImagemDeFundoServicos,
+  TituloBoxServicos,
 };

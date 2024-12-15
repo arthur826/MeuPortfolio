@@ -43,7 +43,7 @@ function SectionContato() {
           <BtnContato>
             <a
               target="_blank"
-              href="https://api.whatsapp.com/send?phone=5549988861000"
+              href="https://api.whatsapp.com/send?phone=5549988018860"
             >
               contate-me
             </a>
