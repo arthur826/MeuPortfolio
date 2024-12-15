@@ -62,7 +62,7 @@ const Header = () => {
                   img={LogoGit}
                 />
                 <LinksHeader
-                  link="https://api.whatsapp.com/send?phone=5549988861000"
+                  link="https://api.whatsapp.com/send?phone=5549988018860"
                   img={LogoWhatssap}
                 />
                 <LinksHeader link="" img={LogoLinkedin} />
