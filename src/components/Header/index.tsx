@@ -40,10 +40,6 @@ const Header = () => {
                 link="https://api.whatsapp.com/send?phone=5549988018860"
                 img={LogoWhatssap}
               />
-              <LinksHeader
-                link="https://www.instagram.com/oarthur_vinicius/"
-                img={LogoInstagram}
-              />
               <LinksHeader link="" img={LogoLinkedin} />
             </LogosRedesSociais>
           </Nav>
