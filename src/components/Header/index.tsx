@@ -16,7 +16,6 @@ import LinksHeader from "../LinksHeader";
 import MenuIcon from "../../assets/menu-burger.png";
 import MinhaLogo from "../../assets/logo-arthur.png";
 import LogoGit from "../../assets/git-logo.png";
-import LogoInstagram from "../../assets/ant-design_instagram.png";
 import LogoWhatssap from "../../assets/uim_whatsapp.png";
 import LogoLinkedin from "../../assets/mdi_linkedin.png";
 import { useState } from "react";
@@ -65,10 +64,6 @@ const Header = () => {
                 <LinksHeader
                   link="https://api.whatsapp.com/send?phone=5549988861000"
                   img={LogoWhatssap}
-                />
-                <LinksHeader
-                  link="https://www.instagram.com/oarthur_vinicius/"
-                  img={LogoInstagram}
                 />
                 <LinksHeader link="" img={LogoLinkedin} />
               </LogosRedesSociaisMobile>
